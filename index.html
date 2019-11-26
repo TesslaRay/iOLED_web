@@ -12,7 +12,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <script>
-
+        //script para zoom y tamaño de fuente del carousel 
         $(document).ready(function() {
           $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/750);
         });
@@ -31,6 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </script>
 
       <style type='text/css'>
+        /*selector de dimension*/
         @media screen and (min-width: 550px) {
           .carousel-indicators>li, .carousel-indicators>li.active {
             width: 100px;
@@ -45,6 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           }
         }
 
+        /*responsive container*/
         @media (max-width: 992px) {
           .container {
               width: 100%;
@@ -56,8 +58,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body style="background-color:#011B24">
 </br> 
 </br>
-</br> 
 </br>
+
+ <!--Menu navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-header" style="background-color: #011B24;" >
       
     <div class="navbar-brand">
@@ -91,11 +94,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </ul> 
       </div>
   </nav>
-  <!--Carousel Wrapper-->
+  <!--/.Menu navbar-->
+
+  <!--Carousel de presentacion (inico)-->
 <div id="carousel-example-1z " class="carousel slide carousel-fade" data-ride="carousel">
-  
-  <!--/.Indicators-->
-  <!--Slides-->
   <div class="carousel-inner " role="listbox">
     <!--First slide-->
     <div class="carousel-item active">
@@ -105,14 +107,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <h5>iOLED</h5>
         <p>Servicio de iluminación led inteligente para Horticultura en ambientes controlados, con niveles uniformes de densidad de flujo fotosintético (PPFD).</p>
       </div>
-    <!--/First slide-->
   </div>
-  <!--/.Slides-->
 </div>
+ <!--/.Carousel de presentacion-->
 
 <br id="sobre"/>
 <br/>
 <br/>
+
+<!-- Que es iOLED -->
 
 <div class="container-fluid">
 <div class="card text-center bg-dark text-white" style="height: 31rem;">
@@ -131,11 +134,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
   </div>
 </div>
+<!-- /.Que es iOLED -->
+
 
   <br id="planes"/>
   <br/>
   <br/>
   
+  <!-- Suscripción mensual  -->
+
   <div class="container-fluid " >
   <div class="card text-center bg-dark text-white" style="height: 128rem;" >
       <img class="card-img img-fluid" src="img/RecursoMarca.png" style="height: 128rem;" >
@@ -194,9 +201,14 @@ border-radius: 16px;">
       </div>
     </div>
   </div>
+
+  <!-- /.Suscripción mensual  -->
+
     <br id="dev"/>
   </br>
 </br>
+
+  <!-- ¿Por qué iOLED?  -->
 
 <div class="container-fluid">
   <div class="card text-center bg-dark text-white" style="height: 55rem;">
@@ -236,9 +248,12 @@ border-radius: 16px;">
       </div>
     </div>
   </div>
+
+  <!-- /.¿Por qué iOLED?  -->
+
     <br id="mioled" />
     
-<!--Carousel Wrapper-->
+<!--Carousel dimensiones -->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" >
   <!--Indicators-->
   <ol class="carousel-indicators">
@@ -320,10 +335,11 @@ border-radius: 16px;">
   <!--/.Controls-->
 </div>
 <!--/.Carousel Wrapper-->
+<!--/.Carousel dimensiones -->
 
 
 
- <!-- Footer -->
+ <!-- Footer/pie de pagina -->
 <footer class="page-footer font-small unique-color-dark">
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5 text-white">
@@ -411,8 +427,9 @@ border-radius: 16px;">
     <!-- Copyright -->
   
   </footer>
-  <!-- Footer -->
+  <!-- /.Footer/pie de pagina -->
 
+  <!-- script para animacion de redireccionamiento -->
   <script>
     $(document).ready(function(){
       // Add scrollspy to <body>
