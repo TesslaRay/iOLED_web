@@ -1,0 +1,9 @@
+body {
+    background-color:#011B24;
+    font-style: 'Nunito Sans', sans-serif;
+}
+
+.carousel-caption d-md-block{
+    font-size: 36px;    
+    width: 200px;
+}
