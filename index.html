@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Delicious Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <script>
+
         $(document).ready(function() {
           $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/750);
         });
@@ -45,33 +45,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           }
         }
 
-       
+        @media (max-width: 992px) {
+          .container {
+              width: 100%;
+          }
+        }
       </style>
     <title>Ioled</title>
 </head>
 <body style="background-color: #011B24;">
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #011B24;">
+</br> 
+</br>
+</br> 
+</br>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-header" style="background-color: #011B24;" >
+      
+    <div class="navbar-brand">
       <img src="img/instagram.png" width="57" height="63" alt="">
       <img src="img/IOLED 1.png" width="124" height="29"  alt="">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    </div>
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse " id="myNavbar">
+          <ul class="nav navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">SOBRE iOLED <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#sobre">SOBRE iOLED <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PLANES</a>
+              <a class="nav-link" href="#planes">PLANES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">DEVELOPMENT</a>
+              <a class="nav-link" href="#dev">DEVELOPMENT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">MI IOLED</a>
+              <a class="nav-link" href="#mioled">MI IOLED</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACTO</a>
+              <a class="nav-link" href="#contacto">CONTACTO</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">+56963538953</a>
@@ -80,16 +92,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </div>
   </nav>
   <!--Carousel Wrapper-->
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-1z " class="carousel slide carousel-fade" data-ride="carousel">
   
   <!--/.Indicators-->
   <!--Slides-->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner " role="listbox">
     <!--First slide-->
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/Frame 1.png" alt="First slide">
+      <img class="d-block w-100 lazyload" src="img/Frame 1.png" alt="First slide">
     </div>
-    <div class="carousel-caption d-md-block">
+    <div class="carousel-caption d-md-block" >
         <h5>iOLED</h5>
         <p>Servicio de iluminación led inteligente para Horticultura en ambientes controlados, con niveles uniformes de densidad de flujo fotosintético (PPFD).</p>
       </div>
@@ -98,7 +110,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <!--/.Slides-->
 </div>
 
+<br id="sobre"/>
+<br/>
+<br/>
 
+<div class="container-fluid">
 <div class="card text-center bg-dark text-white" style="height: 31rem;">
     <img class="card-img img-fluid" src="img/RecursoMarca.png" style="height: 31rem;">
     <div class="card-body card-img-overlay">
@@ -114,12 +130,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <br/>
     </div>
   </div>
+</div>
 
+  <br id="planes"/>
+  <br/>
   <br/>
   
-  <div class="card-deck" style="background-color: #011B24;">
+  <div class="container-fluid " >
+  <div class="card text-center bg-dark text-white" style="height: 128rem;" >
+      <img class="card-img img-fluid" src="img/RecursoMarca.png" style="height: 128rem;" >
+      <div class="card-body card-img-overlay " >
+        <div class="card-deck" >
       <div class="card text-white" style="background: linear-gradient(169.83deg, #75EA85 -1.44%, #74D5AC 25.66%, #189769 96.75%); border-radius: 16px;">
-        <div class="card-body text-center">
+        <div class="card-body text-center" >
             <h5 class="card-title">Suscripción mensual</h5>
             <hr>
             <p class="card-text "><small class="text-white">Desde</small></p>
@@ -168,7 +191,14 @@ border-radius: 16px;">
       </div>
     </div>
   </br>
+      </div>
+    </div>
+  </div>
+    <br id="dev"/>
+  </br>
+</br>
 
+<div class="container-fluid">
   <div class="card text-center bg-dark text-white" style="height: 55rem;">
       <img class="card-img img-fluid" src="img/RecursoMarca.png" style="height: 55rem;">
       <div class="card-body card-img-overlay ">
@@ -205,9 +235,11 @@ border-radius: 16px;">
         <br/>
       </div>
     </div>
+  </div>
+    <br id="mioled" />
     
 <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" >
   <!--Indicators-->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-2" data-slide-to="0" class="active"><h6 class="card-title text-center text-white">60 X 60</h6></li>
@@ -305,7 +337,7 @@ border-radius: 16px;">
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">iOLED</h6>
+          <h6 class="text-uppercase font-weight-bold" id="contacto">iOLED</h6>
           <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 200px; background: white;">
           <p>
             <a>Sobre iOLED</a>
@@ -345,7 +377,7 @@ border-radius: 16px;">
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">CONTACTO</h6>
+          <h6 class="text-uppercase font-weight-bold">Mi iOLED</h6>
           <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 200px; background: white;">
           <p>
             <a>Iniciar Sesión</a>
@@ -380,5 +412,35 @@ border-radius: 16px;">
   
   </footer>
   <!-- Footer -->
+
+  <script>
+    $(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});   
+    
+      // Add smooth scrolling on all links inside the navbar
+      $("#myNavbar a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+    </script>
+
 </body>
 </html>
