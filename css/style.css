@@ -7,3 +7,33 @@ body {
     font-size: 36px;    
     width: 200px;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    .bg-overlay {
+        background:url("../img/RecursoMarca.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 550px;
+        padding-top: 50px;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1824px)  {
+    .bg-overlay {
+        background:url("../img/RecursoMarca.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 300px;
+        padding-top: 50px;
+    }
+
+}
+
+
+
+
