@@ -31,6 +31,16 @@ body {
         padding-top: 20px;
     }
 
+    .bg-cont4 {
+        background:url("../img/RecursoMarca.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 1000px;
+        padding-top: 20px;
+    }
+
 }
 
 /* metodo para trabajar por separado el resposive (web) */
@@ -53,6 +63,16 @@ body {
         background-position: center center;
         color: #fff;
         height: 750px;
+        padding-top: 50px;
+    }
+
+    .bg-cont4 {
+        background:url("../img/RecursoMarca.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 470px;
         padding-top: 50px;
     }
 
